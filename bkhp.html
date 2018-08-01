@@ -1,0 +1,439 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>北科航拍</title>
+</head>
+<link rel="stylesheet" href="chushihua.css" />
+<style>
+	    #container{
+		width: 1002px;
+		margin:0 auto;
+	}
+	#header{
+		height:230px;
+		background:gray;
+	}
+	#banner{
+		margin:2px 2px; 
+		border:4px solid gray;
+		border-radius: 6px;
+	}
+	
+	#nav li{
+		background-color:#D8CFCF;
+		width:90px;
+		float:left;
+		margin-right: 1px;
+	}
+	#nav a{
+		font-size: 15px;
+		line-height: 25px;
+		font-family: '微软雅黑' SimHei 'sans-serif';
+		color:#363636;
+		display: block;
+		height:25px;
+		width:90px;
+		text-align: center;
+	}
+	#nav a:hover{
+		color:white;
+		background:orange;
+	}
+    
+    #main{
+	   
+    }
+
+    #lside{
+	height:480px;
+	width:694px;
+	border:2px solid gray;
+	border-radius: 6px;
+	float:left;
+	background-color:#EDE6E6;
+	position: relative;
+}
+
+    #rside{
+	height:480px;
+	width:294px;
+	background-color:#DCD9D9;
+	border:2px solid gray;
+	border-radius: 6px;
+	float:right;
+	position: relative;
+	
+} 
+	.clr{
+		clear:both;
+		width=0px;
+		width=0px;
+		overflow: hidden;
+	}
+	.subtitle{
+		height:37px;
+		background-color:rgba(255,255,255,1.00);
+	}
+	.subtitle img{
+		float:left;
+		margin: 3px 10px 2px 10px;
+	}
+	.subtitle h1{
+		float:left;
+		line-height: 37px;
+		font-size: 22px;
+		font-family: '微软黑体' SimHei 'sans-serif';
+	}
+	.two{
+		width:326px;
+		height:198px;
+		background-color: #E1DDDD;
+		margin:10px;
+	}
+	.two img{
+		float:left;
+		margin:0px 3px;
+		padding: 6px;
+		background: white;
+	}
+	.two h2{
+		margin: 4px 0px 4px 15px;
+		color: #753CED;
+		font-size: 16px;
+		font-weight: bold;
+		font-family: '微软黑体' SimHei 'sans-serif';
+		
+	}
+	#wenzi{
+		height: 405px;
+		width:308px;
+		background-color: #E1DDDD;
+		position: absolute;
+		left:360px;
+		top:48px;
+		border:3px dotted #9585F9;
+		overflow: scroll;
+	}
+	#wenzi p{
+		margin: 4px 5px 0 5px;
+		font:bold 15px '微软黑体' SimHei 'sans-serif';
+		color: #220241;
+		line-height: 25px;
+		text-indent: 30px;
+		letter-spacing: 1px;
+		text-align: center;
+		
+		
+	}
+	
+	#wenzi span.jx{
+		color: red;
+		font-style: italic;
+		font-size: 18px;	
+	}
+	#wenzi img{
+		margin:2px 12px 2px 16px;
+		padding: 4px;
+		background: white;
+	}
+	#rside h2{
+		line-height: 32px;
+		text-align: center;
+		background-color:#70D3F6;
+		font:bold 22px "微软黑体" SimHei 'sans-serif';
+		color: blue;
+		letter-spacing: 2px;
+	} 
+	#vd{
+		margin-left: 4px;
+		position: absolute;
+		top:42px;
+		}
+	#tp{
+		width: 280px;
+		height:210px;
+		overflow: scroll;
+		position:absolute;
+		top:262px;
+		left:5px;
+		border: 2px dotted blue;
+	}
+	#tp img{
+		margin: 4px 3px 4px 9px;
+		padding:2px;
+		background: white;
+	}
+	#tp h1{
+		color:#346DF0;
+		font-size: 20px;
+		font-style:oblique;
+		font-weight: bold;
+		line-height: 28px;
+		text-indent: 60px;
+	}
+	#tp p{
+		color:aqua;
+		margin: 4px 5px 0 12px;
+		font:bold 15px '微软黑体' SimHei 'sans-serif';
+		color: #220241;
+		line-height: 25px;
+		text-align: center;
+		letter-spacing: 1px;
+		
+		
+	}
+	.xt{
+		color:red;
+		display:block;
+		margin-left:-120px;
+		height:3px;
+	}
+	#footer{
+		height:120px;
+		margin-top: 15px;
+	}
+	#footer li{
+		float:left;
+		margin-right:24px;
+		margin-left: 24px;
+		margin-top: 10px;
+	}
+	#footer ul{
+		height:40px;
+		background-color: #C1BDBD;
+	}
+	#footer address{
+		margin-top:15px;
+		font-family: "微软雅黑" SimHei 'sans-serif';
+		font-size: 16px;
+		float:right;
+		padding-right: 50px;
+	}
+	</style>
+<body>
+   <div id="container">
+   	   <div id="header">
+		   <a href="./hmgk.html" target="_blank"><img src="image/index.jpg" alt="" /></a>
+   	   	  <ul id="nav">
+   	   	  	<li><a href="zhujiemian.html" target="_blank">首页</a></li>
+   	   	  	<li><a href="./hmgk.html" target="_blank">航模概况</a></li>
+   	   	  	<li><a href="./jsxx.html" target="_blank">竞赛信息</a></li>
+   	   	  	<li><a href="#" >北科航拍</a></li>
+   	   	  	<li><a href="#">联系我们</a></li>
+   	   	  </ul>
+   	   </div>
+   	    <a href="./video/hp3.mp4" target="_blank" title="航拍贝壳"><img src="./image/banner3.jpg" id="banner" width=992px height=320px /></a>
+   	   <div id="main">
+   	   	   <div id="lside">
+   	   	   	    <div class="subtitle">
+   	   	   	    <img src="./image/fly1.jpg" alt="" width=30px height="30px" />
+   	   	   	    <h1>航拍概况</h1>
+   	   	   	    </div>
+   	   	   	    <div class="two">
+   	   	   	    	<h2>贝壳航拍</h2>
+   	   	   	    	<a href="./video/hp5.mp4" target="_blank" title="贝壳航拍"><img src="./image/hp0.jpg" alt="" width=308px height=155px /></a>
+   	   	   	    </div>
+   	   	   	    <div class="two">
+   	   	   	    	<h2>贝壳夜景</h2>
+   	   	   	    	<a href="https://mp.weixin.qq.com/s/rFPDdcFG2I7tqWl7p0fpyA" target="_blank" title="贝壳星空"><img src="./image/hp7.jpg" alt="" width=308px height=155px /></a>
+   	   	   	    </div>
+   	   	   	    <div id="wenzi">
+   	   	   	    <p>
+					<span class="jx">航拍简介</span></p>
+					<img src="image/hpfj4.jpg" alt=""  width=250px height=150px/>
+　　<p>航拍又称空中摄影或航空摄影，是指从空中拍摄地球地貌，获得俯视图，此图即为空照图。航拍的摄像机可以由摄影师控制，也可以自动拍摄或远程控制。航拍所用的平台包括飞机、直升机、热气球、小型飞船、火箭、风筝、降落伞等。为了让航拍照片稳定，有的时候会使用如Spacecam等高级摄影设备，它利用三轴陀螺仪稳定功能，提供高质量的稳定画面，甚至在长焦距镜头下也非常稳定。 航拍图能够清晰的表现地理形态，因此除了作为摄影艺术的一环之外，也被运用于军事、交通建设、水利工程、生态研究、城市规划等方面。<br></p>
+
+　　<p>航拍有很多手段:无人机航拍\飞艇航拍,但是载人飞机真人航拍是最好的手段,相对于其他各种遥控航拍手段来说,才是真正意义上的航拍.<br></p>
+
+　
+
+ <p>但是载人航拍成本太高,我现在就一些论坛上和网上关于遥控航拍的相关技术和参数作些补充:最近在航拍论坛谈航拍技术的航空拍摄文章也逐渐多了起来，是一个好现象，好风气，为了能让更多的想做航拍公司飞控的朋友少走弯路，我也谈谈我的航空拍摄意见和航空摄影看法，做点指导性的引导，希望能给大家带来一些航拍思路。<br></p>
+   <img src="./image/czqj1.jpg"  alt="" width=250px height=150px/>
+<p><span class="jx">历史</span><br></p>
+　　<p>纳达尔是首位实现航拍的摄影师和气球驾驶者，他于1858年在法国巴黎上空拍摄。航拍的军事用途于第一次世界大战期间由飞行员得到了发展。新沙佩勒战役是其中著名的战役之一。<br></p>
+
+<p><span class="jx">航拍硬件</span><br></p>
+
+　　<p>很多朋友跟我一谈起做航拍飞控需要硬件就是ARM、DSP、FPGA，就我多年来设计老一代飞控以及UP10和UP20飞控感受，其实硬件并不需要多豪华多高级，能满足功能需要，编程使用方便，功能接口全为首选，例如：UP10仅仅使用AVR单片机就完成了所有的功能，内置eeprom除了能完成各种设置以外，存航点数据也戳戳有余。内部的ram也能满足使用需求（不要考虑使用操作系统）。这样单片化能解决很多硬件间通讯、接口问题，增强了可靠性和易编程能力，也能使得飞控做的很小巧。<br></p>
+
+　　<p>功能齐全的Timer能够通过程序实现获取接收机信号和输出舵机信号的能力。大部分自制飞控的朋友都采用将自控舵机信号和接收机信号通过多路2选一开关芯片实现遥自控的切换，但是UP飞控直接获取各路接收机信号，其目的是可以将来自遥控器的信号转换为命令值，也就是使用遥控器实现指令控制，即RPV控制模式。<br></p>
+
+　　<p>另外还有多余的Timer可以用作计数器，比如获取发动机的转速信息。总共的计时器很有限，必须合理分配和使用它们，有的还同时发挥多个作用。<br></p>
+
+　　<p>单片机通常都自带AD，但基本上最多到10位，并且顶多8～16通道，很多管腿的复用功能，使得你顾此失彼，无法直接用来获取传感器的信号，所以仅用空余的AD通道采集飞控和舵机的电池电池电压是很合适的。<br></p>
+        <img src="./image/hpfj0.jpg"  alt="" width=250px height=150px/>
+<p><span class="jx">飞控的传感器</span><br></p>
+
+　　<p>1、AD公司的MEMS角速率传感器ADXRS150或者ADXRS300,价格一样，量程分别为150和300度/秒，目前国际上流行的小型飞控的首选陀螺，其精度能满足小型无人机的飞行控制。数量上需要3个，分别对应3轴<br></p>
+
+　<p>　2、AD公司的MEMS加速度传感器ADXL202或者ADXL210，价格也一样，量程分别为+－2g和+－10g，也是小型飞控的首选。数量需要2个，每个2轴，总共4轴，但是有一轴是重复的<br></p>
+
+　<p>　3、气压高度传感器和气压空速传感器。两个传感器虽然都是气压传感器，但是量程是有所区别的，作为高度传感器的量程通常选用：15kpa~115Kpa。空速传感器是差压传感器，其量程通常选用0～4Kpa，从而获得比较高的分辨率。<br></p>
+
+　　<p>4、如果要控制直升机、旋翼机等能悬停的飞机，还需要磁传感器以获取悬停或者低速运动时的机头指向，固定翼飞机有一定飞行速度，这个传感器不是必须的。<br></p>
+
+　　<p>5、如果要做自动降落功能，还必须有超声波传感器等测量对地高度的传感器。因为气压高度传感器跟气压场有关系，所以经过一段时间气压场变化后，绝对高度将会不再准确，因此飞机在自动滑跑降落时必须在离地0.5米至1米的平飘需要测量相对地面高度的传感器来完成。
+<br></p>
+<p><span class="jx">飞行控制装备</span><br></p>
+
+　　<p>航拍利用的无人机航拍飞控是一个集单片机技术、航拍传感器技术、GPS导航航拍技术、通讯航拍服务技术、飞行控制技术、任务控制技术、编程技术等多技术并依托于硬件的高科技产物，因此要能设计好一个飞控，缺少上面所述的任何一项技术都是不可能的，越多的飞行经历和经验能为设计初期提供很多避免出现问题的方法，使得试飞进展能够更顺利，要知道飞控的调试主要就是试飞，不比别的自控产品，试飞是高风险的，一旦坠机，硬件损坏，连事故原因都很难分析，就更难解决问题了。这也是成熟的、可靠的飞控很少的原因。<br></p>
+                <img src="./image/hpfj1.jpg"  alt="" width=250px height=150px/>
+<p><span class="jx">工作过程</span><br></p>
+
+　　<p>作为固定翼飞机，不需要自动降落的情况下，只需要前3种传感器，共8路电压数据需要采集。为了获得高精度，可以采用8路16位的AD芯片来采数据，将AD和传感器一起做成一个组件，便于以后升级处理时，只需要更换底板（这就是UP10到UP20升级的思路）。根据AD的输出接口选择和CPU连接，可以是UART、SPI、I2C。<br></p>
+
+　　<p>GPS通常都是串口通讯的，因此可以将它和CPU的一个串口连接，而CPU的另外一个串口通常与数传电台或者直接与地面站计算机连接，以便飞控和地面站双向通讯，传递设置参数、航线数据等给飞控，而飞控将飞行数据向地面站传输。<br></p>
+
+　　<p>CPU再富余的IO口可以用作一些任务操作，比如停发动机，照相控制，任务设备电平监控，任务设备控制等。<br></p>
+
+　　<p>如果感觉CPU的eeprom存取速度慢，存储量小，可以外扩flash、eeprom等等存储器，也可以通过SPI、I2c等接口。这些外部存储器可以用来存储飞行数据，也可以存储一些诸如照片POS数据类型的任务数据。
+<br></p>
+　　<p>在PCB的设计过程中，一定要把高频部分、低频部分分开，避免减少电磁干扰等情况的出现，采用多层板也对解决电磁兼容性问题带来帮助。<br></p>
+
+<p><span class="jx">航拍软件</span><br></p>
+　　<p>软件包括飞控内部的软件和地面站的软件。<br></p>
+
+
+　　<p>飞控内部软件是飞控的灵魂，如果只有硬件只是电子垃圾。<br></p>
+
+　　<p>一谈到软件很多朋友就是讨论使用ucos、linux等等的操作系统。其实作为飞行控制这种实时性要求很强的控制系统，不一定要采用操作系统。使用操作系统对硬件和时序的控制能力降低，CPU的有效使用率降低，对内存的需求增加。在UP10和UP20中都没有采用操作系统。<br></p>
+
+　　<p>UP10完成了传感器数据采集，GPS信息获取，接收机信号获取，舵机控制，与地面站通讯，飞行控制率计算，导航控制，任务控制等所有功能。其中舵机控制和接收机信号获取拥有最高的优先级，与地面站的通讯优先级最低，合理处理CPU的优先级问题能够避免CPU控制时序的混乱和相互的干涉问题。<br></p>
+　　         <img src="./image/czqj2.jpg"  alt="" width=250px height=150px/>
+<p><span class="jx">
+获取的数据</span><br></p>
+
+　　<p>对于飞行控制方法问题上取决于获取的数据。如果只是简单获得了飞机的角速率和加速度计信号等原始数据，控制方法只能采取某些飞控采取的间接姿态控制方法，也就是说在俯仰控制上采用控制空速的方法，角速率只用于阻尼增稳作用；在方向控制上采用转弯角速率控制方式。控制外环是高度和GPS导航航向。这种控制方法得到的飞机控制精度不算很好，特别是高度容易出现波动。但是控制了飞机的稳定的最核心，所以飞行还算是安全的。<br></p>
+
+　　<p>如果能够采取一些计算方法获取飞机的姿态角，pitch,roll，heading，那么控制方法就变为姿态控制了。采用姿态控制时，内环变成了副翼控制飞机的转弯坡度和升降舵控制飞机的俯仰角度（加一定的限制）。这种控制是飞机最正确的控制方式，因此其控制精度是相当高的，稳定性也增强很多。但是这种计算方法很复杂，都是浮点数矩阵运算，对CPU的运算能力要求很高，所以需要引入ARM、DSP等32位浮点运算能力很强的处理器。UP20中增加了ARM专门用于飞行姿态计算，并将计算出来的姿态数据交给UP10,而UP10原来的功能丝毫不受影响。如果全新设计飞控则UP10前面所进行的所有飞行试验就白费了。<br></p>
+
+　　<p>PID控制内环通常采用20Hz以上就足够了，外环通常4～6Hz就足够了，再快已经没有多大的意义。对于PID参数最好能够通过与地面站的无线通讯实现，这对于飞行时的PID参数调整会带来极大的方便，尽量减少飞机的起落次数。<br></p>
+
+<p><span class="jx">通讯程序</span><br></p>
+
+　　<p>在编制与地面站的通讯程序部分，一定要考虑到无线通讯的误码率问题，所有上下行数据必须都要加以校验，特别是飞行航点数据这些重要数据要反复校验，一旦错误将会将飞机导航到不可知的方向。<br></p>
+
+　　<p>导航逻辑一定要严谨，对于可能出现的一些问题要提前考虑到。<br></p>
+
+　　<p>对于可能出现的GPS丢星，发动机停车，飞机机体解体，遥控失灵等问题要考虑补救措施。
+<br></p>
+　　<p>舵机的反舵设置，不同布局的混控设置等最好在飞控中都能实现。<br></p>
+
+　　<p>对于地面站软件，要考虑到方便、实用、可靠，美观是其次的。其实要设计一个好的地面站也是需要经验来支持的。<br></p>
+            <img src="./image/hpfj3.jpg"  alt="" width=250px height=150px/>
+<p><span class="jx">地面站软件</span><br></p>
+　　<p>这个地面站软件应该考虑到如下功能：<br></p>
+
+　　<p>· 地面站软件集成化<br></p>
+
+　　<p>· 可以支持多种地图：电子地图，扫描配准地图，自定义地图<br></p>
+
+　　<p>· 飞行仪表（空速，地平仪，高度，转速，罗盘，升降率）<br></p>
+
+　　<p>· 传感器数据监测<br></p>
+
+　　<p>· 飞行中实时PID调节：地面站实时监控飞行数据，并动态显示数据曲线，实时修改PID增益参数<br></p>
+
+　　<p>· 飞行中可以设定目标航点<br></p>
+
+　　<p>· 可以实时操作任务舵机位置，操作和显示任务IO口<br></p>
+
+　　<p>· 可使用地面站远程控制飞机飞行<br>
+
+　　<p>· 图形化方便灵活的航点编辑方式（包括制式航线）：可以直接在地图上使用鼠标增加、删除航点，可以直接拖动编辑所选择的批量航点，可以手动修改航点数据。支持单点和所有航点上传和下载。<br>
+
+　　<p>· 调整舵机旋转方向和中立值<br></p>
+
+　　<p>· 记录遥测数据<br></p>
+
+　　<p>· 显示飞机的飞行轨迹和姿态
+<br></p>
+　　<p>· 危险告警(电压、温度、GPS状况、发动机转速、高度、爬升率等)<br></p>
+
+　　<p>· 回放飞行数据<br></p>
+
+　　<p>数传电台的选择不要一味的追求发射功率，可以通过好的增益天线来获得远距离的传输，飞机上数传的安装要避免对舵机、遥控接收机、飞控内部的传感器造成干扰。<br></p>
+
+　　<p>试飞前的准备工作要做充分，遥自控切换要切实可靠（调试初期出现任何问题要能及时切换到遥控状态），准备好试飞计划，做好飞行前检查，做好飞行后总结，由简到难，逐步实现自动控制。<br>
+   	   	   	    	<img src="./image/hpfj4.jpg"  alt="" width=250px height=150px/>
+   	   	   	    </p>	
+   	   	   	    </div>
+   	   	   	    
+   	   	   </div>
+
+   	   	   <div id="rside">
+   	   	   	    <div class="subtitle">
+   	   	   	    <img src="./image/fly1.jpg" alt="" width=30px height="30px" scr="./image/fly1.jpg" />
+   	   	   	    <h1>航拍欣赏</h1>
+			   </div>
+   	   	   	    <h2>航拍：美丽北科大</h2>
+   	   	   	     <div id="vd">
+   	   	   	    <video src="./video/hp1.mp4" width=286px height=220px controls></video>	
+			   </div>
+   	   	   	    <div id="tp">
+   	   	   	       <h1>航拍：美丽校园</h1>
+   	   	   	     ,<P> 你仰望过雄伟的毛主席像<br>
+也抬头看过高耸的天工大厦<br>
+
+你举着相机拍摄过银杏大道的美景<br>
+也奔跑于操场享受青春的愉悦<br>
+我的一切似乎都映于你的眼眸<br>
+但是你不知道<br>
+航拍镜头下的我<br>
+定会让你耳目一新<br><br>
+  	   	   	    	让我带着你在云端俯瞰这美丽的北科大
+一起探索北科大的中轴线<br>
+<span class="xt">第一站：西门</span><br>
+   	   	   方正简约的苏式建筑风格，左右呈中轴对称，平面规矩，中间高两边低，主楼高耸，回廊宽缓伸展，有“三段式”结构。
+   	   	   	    	<img src="./image/hp9.jpg" alt="" width=240px height="140px" />
+					我饱尝过风霜和雪雨，也痛饮过胜利的美酒。我举起矿冶的星星火把，希望可以抚慰你百年的国殇；我奉科技之名立校育人，愿为你培育国家的栋梁。<br>
+尔来六十有五年，我如钢铁般依旧屹立在学院路旁，而你依旧注视着我，就像这毛主席像一般，如青松屹立，如流水永恒。<br>
+
+<span class="xt">第二站：银杏大道</span><br>
+   	   	   	    	<img src="./image/hp6.jpg" alt="" width=240px height="140px" />
+   	   	   	    	绿树浓荫夏日长，树影绰约透骄阳。待到银杏黄时，我希望还能见到你。<br>
+
+<span class="xt">第三站：教学楼</span><br>
+   	   	   	    	<img src="./image/hp8.jpg" alt="" width=240px height="140px" />
+   	   	   	    	师韵若兰吐芬芳，年华无悔付寒窗。百炼成钢记耳旁，汗水挥洒有余香。如果玉兰开放时，你在楼上，能否闻到这清香？<br>
+
+<span class="xt">第四站：图书馆</span><br>
+   	   	   	    	<img src="./image/hp5.jpg" alt="" width=240px height="140px" />
+   	   	   	    	梦从春日而起，时间沿着树干往上爬，爬到阳光绚烂的夏日，晃花了图书馆的窗帘，那窗帘一荡一荡，带来了秋雨的绵，秋天的风伴着冬日的雪，和图书馆长夜里学子美好的愿望，织进春天的图景。<br>
+
+<span class="xt">第五站：主干道</span><br>
+   	   	   	    	<img src="./image/hp4.jpg" alt="" width=240px height="140px" />
+   	   	   	    	无数莘莘学子经过这条康庄之路，怀抱着各自的雄伟壮志，开始每一天新的征程。<br>
+
+<span class="xt">第六站：运动场</span><br>
+				<img src="./image/hp3.jpg" alt="" width=240px height="140px" />
+				运动场磨练的是非凡的毅力，较量的是超常的体力，拼搏的是出类拔萃的耐力。<br>
+
+<span class="xt">第七站：五环广场</span><br>
+				<img src="./image/hp2.jpg" alt="" width=240px height="140px" />
+					
+  	   	   	    端庄秀丽，表里如一。作为北京奥运会的场馆之一，你圆满完成了你的职责。你见证了努力,也实现了梦想。<br>
+
+<span class="xt">怀柔军训</span><br>
+               <img src="./image/hp1.jpg" alt="" width=240px height="140px" />
+					少年时的梦，青年时的光。新鲜的血液如岩浆般炽热，如同朝霞，如春前之草，如长江之初源。撒下的汗水是青春，埋下的种子叫理想。<br></p>
+   	   	   	    </div>
+  	   	   </div>
+  	   </div>
+   	   	   <div class="clr"></div> 	   
+   	   <div id="footer">
+   	   	<ul>
+   	   		<li><a href="http://page.renren.com/600989646?checked=true" target="_blank">公共主页</a></li>
+   	   		<li><a href="http://www.hangmow.com/" target="_blank">航模论坛</a></li>
+   	   		<li><a href="http://tieba.baidu.com/f?kw=%BA%BD%C4%A3&fr=ala0&tpl=5" target="_blank">航模贴吧</a></li>
+   	   		<li><a href="#" >反馈信息</a></li>
+   	   		<li><a href="#" target="_blank">关于我们</a></li>
+   	   	</ul>
+   	   	<address >&copy;2018 北京市海淀区学院路30号北京科技大学高等工程师学院309</address>
+   	   </div>
+   </div>
+   
+</body>
+</html>
+

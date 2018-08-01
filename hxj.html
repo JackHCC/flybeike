@@ -1,0 +1,333 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>滑翔机</title>
+</head>
+<link rel="stylesheet" href="chushihua.css" />
+<style>
+	    #container{
+		width: 1002px;
+		margin:0 auto;
+	}
+	#header{
+		height:230px;
+		background:gray;
+	}
+	#banner{
+		margin:2px 2px; 
+		border:4px solid gray;
+		border-radius: 6px;
+	}
+	
+	#nav li{
+		background-color:#D8CFCF;
+		width:90px;
+		float:left;
+		margin-right: 1px;
+	}
+	#nav a{
+		font-size: 15px;
+		line-height: 25px;
+		font-family: '微软雅黑' SimHei 'sans-serif';
+		color:#363636;
+		display: block;
+		height:25px;
+		width:90px;
+		text-align: center;
+	}
+	#nav a:hover{
+		color:white;
+		background:orange;
+	}
+    
+    #main{
+	   
+    }
+
+    #lside{
+	height:480px;
+	width:694px;
+	border:2px solid gray;
+	border-radius: 6px;
+	float:left;
+	background-color:#EDE6E6;
+	position: relative;
+}
+
+    #rside{
+	height:480px;
+	width:294px;
+	background-color:#DCD9D9;
+	border:2px solid gray;
+	border-radius: 6px;
+	float:right;
+} 
+	.clr{
+		clear:both;
+		width=0px;
+		width=0px;
+		overflow: hidden;
+	}
+	.subtitle{
+		height:37px;
+		background-color:rgba(255,255,255,1.00);
+	}
+	.subtitle img{
+		float:left;
+		margin: 3px 10px 2px 10px;
+	}
+	.subtitle h1{
+		float:left;
+		line-height: 37px;
+		font-size: 22px;
+		font-family: '微软黑体' SimHei 'sans-serif';
+	}
+	.two{
+		width:326px;
+		height:198px;
+		background-color: #E1DDDD;
+		margin:10px;
+	}
+	.two img{
+		float:left;
+		margin:0px 3px;
+		padding: 6px;
+		background: white;
+	}
+	.two h2{
+		margin: 4px 0px 4px 15px;
+		color: #753CED;
+		font-size: 16px;
+		font-weight: bold;
+		font-family: '微软黑体' SimHei 'sans-serif';
+		
+	}
+	#wenzi{
+		height: 405px;
+		width:308px;
+		background-color: #E1DDDD;
+		position: absolute;
+		left:360px;
+		top:48px;
+		border:2px solid #9585F9;
+		overflow: scroll;
+	}
+	#wenzi p{
+		margin: 4px 5px 0 5px;
+		font:bold 15px '微软黑体' SimHei 'sans-serif';
+		color: #220241;
+		line-height: 25px;
+		text-indent: 30px;
+		letter-spacing: 1px;
+		overflow: auto;
+		
+	}
+	#wenzi img{
+		margin:0 10px 0 14px;
+		padding:2px;
+		background: white;
+	}
+	#wenzi span.jx{
+		color: red;
+	}
+	#wenzi span#ab{
+		color: blue;
+	}
+	#wenzi span#aa{
+		text-decoration: underline
+	}
+	.biaoti{color: red;
+		font-style: italic;
+		font-size: 18px;
+		
+	}
+	.xbiaoti{
+		color: blue;
+		font-size: 16px;
+	}
+	h3{
+		line-height: 32px;
+		text-align: center;
+		background-color:#A1DCEF;
+		font:bold 18px '微软黑体' SimHei 'sans-serif';
+		color: blue;
+		letter-spacing: 2px;
+	} 
+	#article{
+		height:430px;
+		width:294px;
+		overflow: scroll;
+	}
+	#article p{
+		display: block;
+		margin:16px;
+		font:italic bold 14px '微软黑体' SimHei 'sans-serif';
+		line-height: 24px;
+		letter-spacing: 2px;
+	}
+	#article span.tit{
+		color: red;
+		font-size: 18px;
+	}
+	.titt{
+		color: blue;
+		font-style:normal;
+	}
+	#footer{
+		height:120px;
+		margin-top: 15px;
+	}
+	#footer li{
+		float:left;
+		margin-right:24px;
+		margin-left: 24px;
+		margin-top: 10px;
+	}
+	#footer ul{
+		height:40px;
+		background-color: #C1BDBD;
+	}
+	#footer address{
+		margin-top:15px;
+		font-family: "微软雅黑" SimHei 'sans-serif';
+		font-size: 16px;
+		float:right;
+		padding-right: 50px;
+	}
+	</style>
+<body>
+   <div id="container">
+   	   <div id="header">
+		   <a href="./hmgk.html" target="_blank"><img src="image/index.jpg" alt="" /></a>
+   	   	  <ul id="nav">
+   	   	  	<li><a href="zhujiemian.html" target="_blank">首页</a></li>
+   	   	  	<li><a href="./hmgk.html" target="_blank">航模概况</a></li>
+   	   	  	<li><a href="./jsxx.html" target="_blank">竞赛信息</a></li>
+   	   	  	<li><a href="./bkhp.html" target="_blank">北科航拍</a></li>
+   	   	  	<li><a href="#">联系我们</a></li>
+   	   	  </ul>
+   	   </div>
+   	   <div id="main">
+   	   	   <div id="lside">
+   	   	   	    <div class="subtitle">
+   	   	   	    <img src="./image/fly1.jpg" alt="" width=30px height="30px" />
+   	   	   	    <h1>滑翔机简介</h1>
+   	   	   	    </div>
+   	   	   	    <div class="two">
+   	   	   	    	<h2>遥控滑翔机</h2>
+   	   	   	    	<a href="http://bbs.5imx.com/forum.php?mod=forumdisplay&fid=703" target="_blank" title="遥控滑翔机"><img src="./image/hxj5.jpg" alt="" width=308px height=155px /></a>
+   	   	   	    </div>
+   	   	   	    <div class="two">
+   	   	   	    	<h2>手掷滑翔机</h2>
+   	   	   	    	<a href="https://zhuanlan.zhihu.com/p/26467819" target="_blank" title="手掷滑翔机"><img src="./image/szhxj.jpg" alt="" width=308px height=155px /></a>
+   	   	   	    </div>
+   	   	   	    <div id="wenzi">
+   	   	   	    <h3> 滑翔机概述</h3>
+   	   	   	    <p><span class="biaoti">一.滑翔机介绍</span></p>
+   	   	   	    <p>
+   	   	   	  滑翔机是指不依靠动力装置飞行的重于空气的固定翼航空器，起飞后仅依靠空气作用于其升力面上的反作用力进行自由飞行，大多没有动力装置。可由飞机拖曳起飞，也可用绞盘车或汽车牵引起飞，还可从高坡上下滑到空中。在无风情况下，滑翔机在下滑飞行中依靠自身重力的分量获得前进动力；在上升气流中，滑翔机可像老鹰展翅那样平飞或升高。 现代滑翔机主要用于体育运动，分初级和高级。前者主要用于训练飞行，后者主要用于竞赛和表演，有的还可以完成各种高级空中特技，如翻跟斗和螺旋等。20世纪70年代后，悬挂滑翔机在现代科学技术的基础上（结构材料的改进和制造工艺水平的提高）开始复苏，吸引了大量飞行爱好者。<br></p>
+
+              <img src="image/hxj6.jpg" alt="" / height=150px width=260px>
+<p><span class="biaoti">二.遥控滑翔机简介</span><br></p>
+					<p>遥控滑翔机是滑翔机的模型版可飞行，是使用遥控设备进行遥控的滑翔机。大小长度可随设计要求进行制作。遥控滑翔机也属于遥控飞机的一种但其飞行速度慢且可无动力飞行。<br></p>
+
+					<p><span class="xbiaoti">分类</span><br></p>
+<p>遥控滑翔机可分为有动力和无动力2种。有动力几乎就是遥控飞机但机翼较一般遥控飞机要长要大，通过搜寻地面的上升气流使飞机长时间地飞行。无动力的遥控滑翔机就是滑翔机的小型版且在机身安装了控制设备（舵机，接收器）等。<br></p>
+
+					<p><span class="xbiaoti">控制设备</span><br></p>
+<p>遥控滑翔机的控制设备一般为2—4通道，因为不需要作特技动作所以也不要太多的操作。<br></p>
+                   <img src="image/hxj3.jpg" alt="" / height=150px width=260px>
+<p><span class="biaoti">三.手掷滑翔机简介</span><br></p>
+<p>手掷模型滑翔机是指以手掷方式升空，利用空气动力在保持不变的翼面上产生升力的航空模型。这类模型滑翔机以木制为主，也有少数杆型机身、泡沫机翼，兼可作牵引的机型。<br></p>
+
+<p><span class="xbiaoti">特点</span><br>
+	另外手掷遥控滑翔机和其他遥控滑翔机相比有以下优点：<br></p>
+<p>1.起飞方便，只要用手一甩就可以享受滑翔的乐趣，不需要任何辅助设备，也不受到动力电池的限制。<br></p>
+<p>2.飞行安全，对场地要求小，由于重量轻（约300克），即使撞到人也不会有伤害，没有伤人的后顾之忧，飞行成为更纯粹的享受。<br></p>
+<p>3.耐摔，寿命长，由于重量轻，动量小，即使摔飞机也很少损坏，对于longshot DLG，即使有损伤也很容易修补，详见longshot的修补。<br></p>
+<p>4.便于携带，可以长期放在车上，有几十分钟的时间就可以享受飞行的乐趣。（车内温度过高可能会导致飞机产生不可恢复的变形。）<br></p>
+<p>5.结合飞行和体育锻炼于一身，可以舒展筋骨，锻炼身体。<br></p>
+	<p>由于手掷滑翔机的诸多优点，在短短几年内就风摩全球，成为遥控滑翔机爱好者的至爱,请看模友飞DLG后的感想。<br></p>
+		<img src="image/hxj0.jpg" alt="" / height=150px width=260px>     		
+   	   	   	    </div>
+   	   	   	    
+   	   	   </div>
+
+   	   	   <div id="rside">
+   	   	   	    <div class="subtitle">
+   	   	   	    <img src="./image/fly1.jpg" alt="" width=30px height="30px" scr="./image/fly1.jpg" />
+   	   	   	    <h1>比赛规则</h1>
+			    </div>
+   	            <div id="article">
+   	            <h3>手掷滑翔机规则</h3>
+   	            <p>
+   	            	<span class="tit">1. 任务描述:</span><br>
+    以手掷为动力源，用无线电遥控设备操纵，模型升空后进行无动力滑翔飞行，并按照相应轮次比赛的要求完成飞行任务。<br>
+<span class="tit">2.比赛流程:</span><br>
+<span clss="titt">2.1第一轮：模拟飞行水平测试及机翼制作阶段性测评。</span><br>
+参赛选手经过模拟飞行培训及练习，学习或强化自己的飞机操控技能，同时开展机翼制作。<br>
+<span clss="titt">2.2第二轮：滑翔机工艺评分。</span><br>
+将滑翔机剩余部分制作完成并拼接成待飞整机。<br>
+<span clss="titt">2.3第三轮：手掷遥控滑翔机竞时赛。</span><br>
+在操场进行外场飞行，比拼飞机留空时间，留空长者获得更高分数。<br>
+<span clss="titt">2.4第四轮：手掷遥控滑翔机决赛。</span><br>
+在操场进行外场飞行，按照经典赛制，在规定时间降落至规定位置，留空时间精准，落点精准者得分高。<br>
+注：时间为暂定时间，后续可能会有变动<br>
+					<span class="tit">3. 技术要求:</span><br>
+必须按照组委会提供的图纸制作滑翔机并使用该滑翔机参加全部比赛，使用外部购买的成品机直接取消比赛资格。<br>
+					<span class="tit">4.运动员:</span><br>
+每两个同学组成一队，分为操作手和机械员，只能由前者参加模拟器水平测试，并担任外场飞行的飞机操作手，操作手可以和机械员共同制作飞机。不限队长是操作手或是机械员，不允许单人队伍。
+<br>
+					<span class="tit">5.评分标准</span><br>
+<span clss="titt">5.1模拟飞行水平测试评分细则详见模拟飞行打分表。</span><br>
+<span clss="titt">5.2机翼制作阶段性测评详见机翼制作打分表。</span><br>
+<span clss="titt">5.3滑翔机工艺评分详见滑翔机工艺评分打分表。</span><br>
+<span clss="titt">5.4在第三轮比赛中。</span><br>
+①每组共有三次机会，所得成绩按从高到低分别占比60%、25%、15%计算该组最终成绩。<br>
+②以所有参赛组中所得该次最高时间为满分成绩，其余组单次成绩按比例计算得分。<br>
+<span clss="titt">5.5在第四轮比赛中<br>
+①满分降落t0时间将由组委会根据第三轮成绩进行裁定。<br>
+②单次比赛评分细则如下<br>
+③共比赛两次，第四轮最终成绩取平均。<br>
+<span clss="titt">5.6最终排名成绩按照上面五项加权而得，权重分别是0.1，0.15，0.15，0.2，0.4。</span><br> 
+					<span class="tit">6.判罚:</span><br>
+<span clss="titt">6.1在第三轮比赛中</span><br>
+①若障碍物阻挡飞机致飞机停止，立刻停止计时。<br>
+②不允许使用自动飞行控制装置。<br>
+<span clss="titt">6.2在第四轮比赛中</span><br>
+①必须由操作手手掷飞机。<br>
+②操作手全程不得走出以降落点为圆心半径3m的圆。<br>
+③若障碍物阻挡飞机致飞机停止，立刻停止计时。<br>
+④模型着陆时若与本组同学相碰，本轮落地分计0。<br>
+⑤模型明显大幅度损坏，本轮落地分计0。<br>
+⑥模型着陆后，操作手或机械员在裁判员未测量定点距离之前触摸模型，本轮落地分计0。<br>
+⑦在模型上使用尖硬凸起物，不允许参加本轮比赛。<br>
+⑧不允许使用自动飞行控制装置。<br>
+<span class="tit">7.物资:</span><br>
+<span clss="titt">7.1主办方免费提供第一套木材，若需额外木材会收取成相应本费。</span><br>
+<span clss="titt">7.2主办方出租电子套材（包括1s电池一块，天地飞7接收机一个，银燕8g舵机两个），收取押金150元，比赛过后可凭外形完整、功能正常的套材领回押金，如若有损坏，照价赔偿。</span><br>
+					<span class="tit">8.其他:</span><br>
+办方会进行如下培训：<br>
+①模拟器的使用方法——飞行基本操作<br>
+②手掷遥控滑翔机制作流程<br>
+   	            </p>  	            	
+   	            </div>
+ 	   	       </div>
+  	   	  
+  	   </div>
+   	   	   <div class="clr"></div> 	   
+   	   <div id="footer">
+   	   	<ul>
+   	   		<li><a href="http://page.renren.com/600989646?checked=true" target="_blank">公共主页</a></li>
+   	   		<li><a href="http://www.hangmow.com/" target="_blank">航模论坛</a></li>
+   	   		<li><a href="http://tieba.baidu.com/f?kw=%BA%BD%C4%A3&fr=ala0&tpl=5" target="_blank">航模贴吧</a></li>
+   	   		<li><a href="#" >反馈信息</a></li>
+   	   		<li><a href="#" target="_blank">关于我们</a></li>
+   	   	</ul>
+   	   	<address >&copy;2018 北京市海淀区学院路30号北京科技大学高等工程师学院309</address>
+   	   </div>
+   </div>
+   
+</body>
+</html>

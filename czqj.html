@@ -1,0 +1,381 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>垂直起降</title>
+</head>
+<link rel="stylesheet" href="chushihua.css" />
+<style>
+	    #container{
+		width: 1002px;
+		margin:0 auto;
+	}
+	#header{
+		height:230px;
+		background:gray;
+	}
+	#banner{
+		margin:2px 2px; 
+		border:4px solid gray;
+		border-radius: 6px;
+	}
+	
+	#nav li{
+		background-color:#D8CFCF;
+		width:90px;
+		float:left;
+		margin-right: 1px;
+	}
+	#nav a{
+		font-size: 15px;
+		line-height: 25px;
+		font-family: '微软雅黑' SimHei 'sans-serif';
+		color:#363636;
+		display: block;
+		height:25px;
+		width:90px;
+		text-align: center;
+	}
+	#nav a:hover{
+		color:white;
+		background:orange;
+	}
+    
+    #main{
+	   
+    }
+
+    #lside{
+	height:480px;
+	width:694px;
+	border:2px solid gray;
+	border-radius: 6px;
+	float:left;
+	background-color:#EDE6E6;
+	position: relative;
+}
+
+    #rside{
+	height:480px;
+	width:294px;
+	background-color:#DCD9D9;
+	border:2px solid gray;
+	border-radius: 6px;
+	float:right;
+} 
+	.clr{
+		clear:both;
+		width=0px;
+		width=0px;
+		overflow: hidden;
+	}
+	.subtitle{
+		height:37px;
+		background-color:rgba(255,255,255,1.00);
+	}
+	.subtitle img{
+		float:left;
+		margin: 3px 10px 2px 10px;
+	}
+	.subtitle h1{
+		float:left;
+		line-height: 37px;
+		font-size: 22px;
+		font-family: '微软黑体' SimHei 'sans-serif';
+	}
+	.two{
+		width:326px;
+		height:198px;
+		background-color: #E1DDDD;
+		margin:10px;
+	}
+	.two img{
+		float:left;
+		margin:0px 3px;
+		padding: 6px;
+		background: white;
+	}
+	.two h2{
+		margin: 4px 0px 4px 15px;
+		color: #753CED;
+		font-size: 16px;
+		font-weight: bold;
+		font-family: '微软黑体' SimHei 'sans-serif';
+		
+	}
+	#wenzi{
+		height: 405px;
+		width:308px;
+		background-color: #E1DDDD;
+		position: absolute;
+		left:360px;
+		top:48px;
+		border:2px solid #9585F9;
+		overflow: scroll;
+	}
+	#wenzi p{
+		margin: 4px 10px 0 24px;
+		font:bold 15px '微软黑体' SimHei 'sans-serif';
+		color: #220241;
+		line-height: 25px;
+		text-indent: 30px;
+		letter-spacing: 1px;
+		overflow: auto;
+		
+	}
+	#wenzi img{
+		margin:0 8px 0 12px;
+		padding:4px;
+		background: white;
+	}
+	
+	.biaoti{color: red;
+		font-style: italic;
+		font-size: 18px;
+
+	}
+	.xbiaoti{
+		color: blue;
+		font-size: 16px;
+	}
+	h3{
+		line-height: 32px;
+		text-align: center;
+		background-color:#A1DCEF;
+		font:bold 18px '微软黑体' SimHei 'sans-serif';
+		color: blue;
+		letter-spacing: 2px;
+	} 
+	#article{
+		height:430px;
+		width:294px;
+		overflow: scroll;
+	}
+	#article p{
+		display: block;
+		margin:16px;
+		font:italic bold 14px '微软黑体' SimHei 'sans-serif';
+		line-height: 24px;
+		letter-spacing: 2px;
+	}
+	#article span.tit{
+		color: red;
+		font-size: 18px;
+	}
+	#article img{
+		
+		margin-left: 10px;
+	}
+	#footer{
+		height:120px;
+		margin-top: 15px;
+	}
+	#footer li{
+		float:left;
+		margin-right:24px;
+		margin-left: 24px;
+		margin-top: 10px;
+	}
+	#footer ul{
+		height:40px;
+		background-color: #C1BDBD;
+	}
+	#footer address{
+		margin-top:15px;
+		font-family: "微软雅黑" SimHei 'sans-serif';
+		font-size: 16px;
+		float:right;
+		padding-right: 50px;
+	}
+	</style>
+<body>
+   <div id="container">
+   	   <div id="header">
+		   <a href="./hmgk.html" target="_blank"><img src="image/index.jpg" alt="" /></a>
+   	   	  <ul id="nav">
+   	   	  	<li><a href="zhujiemian.html" target="_blank">首页</a></li>
+   	   	  	<li><a href="./hmgk.html" target="_blank">航模概况</a></li>
+   	   	  	<li><a href="./jsxx.html" target="_blank">竞赛信息</a></li>
+   	   	  	<li><a href="./bkhp.html" target="_blank">北科航拍</a></li>
+   	   	  	<li><a href="#" >联系我们</a></li>
+   	   	  </ul>
+   	   </div>
+   	   <div id="main">
+   	   	   <div id="lside">
+   	   	   	    <div class="subtitle">
+   	   	   	    <img src="./image/fly1.jpg" alt="" width=30px height="30px" />
+   	   	   	    <h1>垂直起降简介</h1>
+   	   	   	    </div>
+   	   	   	    <div class="two">
+   	   	   	    	<h2>垂直起降</h2>
+   	   	   	    	<a href="http://baijiahao.baidu.com/s?id=1567975639441311&wfr=spider&for=pc" target="_blank" title="垂直起降战斗机"><img src="./image/czqj1.jpg" alt="" width=308px height=155px /></a>
+   	   	   	    </div>
+   	   	   	    <div class="two">
+   	   	   	    	<h2>直升机</h2>
+   	   	   	    	<a href="https://baike.baidu.com/item/%E9%81%A5%E6%8E%A7%E7%9B%B4%E5%8D%87%E6%9C%BA/1233110?fr=aladdin" target="_blank" title="遥控直升机"><img src="./image/czqj2.jpg" alt="" width=308px height=155px /></a>
+   	   	   	    </div>
+   	   	   	    <div id="wenzi">
+   	   	   	    <h3> 垂直起降介绍</h3>
+					<p><span class="biaoti">一.垂直起降概述</span><br> </p>	   	   	    
+  	   	   	 <p>垂直起降技术顾名思义就是飞机不需要滑跑就可以起飞和着陆的技术。它是从50年代末期开始发展的一项航空技术。垂直起降飞机减少或基本摆脱了对跑道的依赖，只需要很小的平地就可以拔地而起和垂直着陆，所以在战争中飞机可以分散配置，便于灵活出击、转移和伪装隐蔽，不易被敌方发现，出勤率也大幅提高，并且对敌方的打击具有很高的突然性，大大提高了飞机的战场生存率。垂直起降技术的诞生主要是因为飞机滑跑起飞方式的不足，特别是在历次战争中的表现，让飞机的垂直起降进入人们的视线。<br></p>
+  	   	   	 <img src="./image/czqj0.jpg" alt="" height=150px width="260" />
+<p><span class="biaoti">二.简介</span><br></p>
+<p>这里把飞机的飞行分为三个主要阶段，即起飞、平飞和降落，其中飞机实现起飞和降落的方式就是滑跑方式，所以需要机场跑道。而垂直起降主要指固定翼飞机可以不用借助跑道而在原地就能垂直起飞和垂直降落，可以不用机场跑道，所以一直是航空人士追求的一个目标。一般像直升飞机、气球等的飞行不作为垂直起降来考虑。<br></p>
+<p><span class="biaoti">三.背景</span><br></p>
+<p>垂直起降技术的诞生主要是因为飞机滑跑起飞方式的不足，特别是在历次战争中的表现，让飞机的垂直起降进入人们的视线。二战及中东战争等战争直接对敌方机场的袭击让人们感受到了需要跑道的滑跑式飞机的不足之处，而冷战则是垂直起降技术的催化剂。二战后的五六十年代，在极有可能爆发核战争的阴影下，人们担心出现核大战对机场造成破坏、常规飞机无法出动的局面，所以催生了固定翼飞机的垂直起降技术。垂直起降飞机减少或基本摆脱了对跑道的依赖，只需要很小的平地就可以拔地而起和垂直着陆，所以在战争中飞机可以分散配置，便于灵活出击、转移和伪装隐蔽，不易被敌方发现，出勤率也大幅提高，并且对敌方的打击具有很高的突然性，大大提高了飞机的战场生存率。<br></p>
+<p>另外，具有垂直起降能力的飞机不需要专门的机场和跑道，这样就省去了昂贵的机场建设费用，不用驱鸟了，也能在恶劣气象条件下起降，好处太多，降低了使用成本，所以飞机的垂直起降成了航空发展的一个方向。<br></p>
+	 <img src="./image/czqj.jpg" alt="" height=150px width="260" />
+<p><span class="biaoti">四.基本原理</span><br></p>
+<p>要研究垂直起降技术是怎样实现的，就要知道比空气重的飞机是如何飞行的。飞机飞行需要克服两种力—重力和阻力。重力是由飞机的气动面，即机翼和尾翼产生的垂直升力平衡的；阻力则是由发动机提供的水平推力克服的。正常飞机的起飞过程就是飞机在发动机的推动下，在跑道上克服阻力向前滑跑，机翼在空气中直线平移运动，利用特定翼型和飞行状态产生的空气压差获取升力。随着速度的加快，升力也越来越大，当滑跑速度足够大到使机翼产生的升力大于飞机的重量时，飞机就可以离开地面升空飞行了。由于在一定的条件下飞行的阻力远小于飞机的重量，所以飞机的飞行可以实现以小推力托起大重量，也就是推重比小于1，是一种省力的飞行方式。<br></p>
+
+<p>喷气发动机反作用力升力<br></p>
+<p>从上面可以看出，飞机要想飞行必须克服重力，而垂直起落飞机由于不需要滑跑，就不可能由机翼产生克服重力的升力。那到底如何才能实现在原地的垂直起降呢？只能有两种方法，一种是喷气反作用力，一种是利用空气动力。<br></p>
+<p>喷气反作用力，就是由发动机向下喷气产生的反作用力升力来克服重力实现垂直起降的。办法有三个，一个是偏转发动机的喷管（如英国的鹞式），第二种是直接使用升力发动机提供升力，第三个是前两种办法的组合，同时使用升力发动机和主发动机（如前苏联的雅克）。根据牛顿第三定律，作用力与反作用力大小相等，也就是发动机的的推力与升力相等，那么垂直起降时的推重比就得大于1才能垂直起降，与推重比小于1的飞机的飞行相比，这种反作用力升力并不省力，耗能太多，不实用，因此很难推广。<br></p>
+<p>空气动力垂直起降，就是在发动机输出的扭矩力作用下能利用空气动力的装置，比如风扇等，像美国的F-35B的升力风扇就是一种。<br></p>
+
+<p>垂直起降<br></p>
+	 <img src="./image/czqj3.jpg" alt="" height=150px width="260" />
+<p>但这种传统的旋转式的升力风扇还是问题多多，所以还要对传统风扇进行改进，比如多环分级升力风扇，使风扇超薄，强力，坚固。<br></p>
+
+<p>垂直起降<br></p>
+	 <img src="./image/czqj4.jpg" alt="" height=150px width="260" />
+<p>由于旋转式的本质缺点不能改变，所以把扇叶由旋转运动改变成平移运动，这种风扇的效能就提高了，并且矩形也利于安装，也许是将来飞机垂直起降的一个方向。<br></p>
+<p>风扇由于是利用与空气的相互作用力（主要是大气压力差，其次反作用力）为垂直起降的升力的，埋植在机翼中，与空气的接触面积大，所以升力强大，油耗较小，是个有前途的发展方向。<br></p>
+   	   	   	    </div>
+   	   	   	    
+   	   	   </div>
+
+   	   	   <div id="rside">
+   	   	   	    <div class="subtitle">
+   	   	   	    <img src="./image/fly1.jpg" alt="" width=30px height="30px" scr="./image/fly1.jpg" />
+   	   	   	    <h1>比赛规则</h1>
+			    </div>
+   	            <div id="article">
+   	            <h3>垂直起降规则</h3>
+   	            <p>
+
+<span class="tit">1.任务描述</span><br>
+
+
+遥控模型从起降区搭载一定载重物起飞，顺时针绕标杆飞行两圈，飞行至投放区上空投放载荷后，安全返回起降区降落，循环往返直至比赛结束。比赛以限时内有效投放载荷总质量大者取胜。<br>
+
+<span class="tit">2.技术要求</span><br>
+
+2.1 模型质量、布局、结构形式等不限，但模型不得有轻于空气的结构部分。<br>
+
+2.2 模型动力必须为电动，且电机数量不超过 2 个，电机、电池、螺旋桨等由航模队提供。<br> 2.3 模型起飞不得借助外力或其它装置，模型可带动力着陆，但必须在螺旋桨停止转动后方可进行装载。<br>
+
+2.4 起降区内，除模型外不得放置任何设备。<br>
+
+2.5 载重物为直径 150mm的泡沫球，由组委会提供。<br>
+
+2.6不限制载重物的装载方式。<br>
+
+<span class="tit">3. 场地设置</span><br>
+
+3.1 任务区设操纵区、起降区、投放区、 标杆。<br>
+
+3.1.2 投放区为圆形区域。<br>
+
+3.1.3 载重物存放在物资区内。<br>
+
+3.1.4比赛中操纵员不得离开操纵区。除更换备机外任何人不得进入起降区。<br>
+
+3.2 安全区 工作区和观众区设置在安全区，比赛场馆内除任务区外均为安全区，以视场地情况划定的区域边线和搭设的安全网为界。<br>
+
+<span class="tit">4. 运动员</span><br>
+
+4.1 该项目每个机组最多 3 人。<br>
+
+4.2 每个机组由操纵员 1 人、助手不超过 2 人组成机组参加比赛。<br>
+<span class="tit">
+5. 竞赛方法</span><br>
+
+5.1 比赛进行两轮。<br>
+
+5.2 每轮比赛进场准备时间为2分钟 ，比赛时间为3分钟 。<br>
+
+5.3 比赛时间内运动员操纵模型完成若干次起飞、绕标、投放和降落动作，超过比赛时间完成的动作不予计分。<br>
+
+5.4 模型的装载和飞行。<br>
+
+5.5 模型的空投模型应顺时针绕标杆飞行两圈才可进行空投，模型绕两标杆的外侧，从图示左侧标杆飞向右侧标杆两次后，即为完成两圈飞行。<br>
+
+5.6 装载时模型应在起降区内，只有装载人员不得进入起降区，不得和模型有任何接触 。<br>
+
+<span class="tit">6. 成绩评定</span><br>
+
+6.1 单轮得分为竞赛时间内的起飞分与每次飞行的空投分<br>
+
+6.2 起飞分：起飞成功得 50分，即s1=50 *n<br>
+
+n为成功起飞次数<br>
+
+6.3 单次飞行的空投分： 投入到投放区内的载重物，按载重物的数量和模型重量计算空投分，计分规则如下所示；载重物未投入投放区时，不予计分。<br>
+
+6.3.1模型重量：<br>
+
+不带球情况下秤取模型重量为x *100g<br>
+
+不足100g部分按100g计.<br>
+
+6.3.2投掷得分<br>
+
+投入一个球的得分为100/x,如重量200g,成功投掷一个球，得分为50分<br>
+
+即s2=n*(100/x)<br>
+
+N为投入球的数量<br>
+
+6.3.3最终得分<br>
+
+S总=s1+s2-扣分<br>
+
+6.4比分相同的情况<br>
+以重量轻者排名高<br>
+
+<span class="tit">7. 判罚</span><br>
+
+7.1 比赛时间内参赛人员第一次与模型发生接触，扣 10 分。<br>
+
+7.2 有下列情况之一者该轮比赛终止，已取得的成绩有效。<br>
+
+7.2.1 操纵员双脚离开操纵区。<br>
+
+7.2.2 模型第一次离地后，对模型进行维修和调试（无论取出与否）。<br>
+
+7.2.3 比赛中，模型因故障无法继续飞行或经裁判员认定不能保证飞行安全。<br>
+
+7.2.4 螺旋桨未停止转动进行装载两次（第一次警告）。<br>
+
+7.2.5 参赛人员第二次与模型发生接触（包括通过其他物体）<br>
+
+7.3 有下列情况之一者该轮成绩判为零分。<br>
+
+7.3.1 模型未按规定绕杆飞行两圈且进行了空投。<br>
+
+7.3.2 比赛时间到仍继续向投放区空投。<br>
+
+7.3.3 模型借助外力或其他装置起飞。<br>
+           <img src="./image/t01.png"  alt="北科航模" height=120px width=230px /> 
+   	            </p>  	            	
+   	            </div>
+ 	   	       </div>
+  	   	  
+  	   </div>
+   	   	   <div class="clr"></div> 	   
+   	   <div id="footer">
+   	   	<ul>
+   	   		<li><a href="http://page.renren.com/600989646?checked=true" target="_blank">公共主页</a></li>
+   	   		<li><a href="http://www.hangmow.com/" target="_blank">航模论坛</a></li>
+   	   		<li><a href="http://tieba.baidu.com/f?kw=%BA%BD%C4%A3&fr=ala0&tpl=5" target="_blank">航模贴吧</a></li>
+   	   		<li><a href="#" >反馈信息</a></li>
+   	   		<li><a href="#" target="_blank">关于我们</a></li>
+   	   	</ul>
+   	   	<address >&copy;2018 北京市海淀区学院路30号北京科技大学高等工程师学院309</address>
+   	   </div>
+   </div>
+   
+</body>
+</html>
+

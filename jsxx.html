@@ -1,0 +1,375 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/>
+<title>竞赛信息</title>
+</head>
+<link rel="stylesheet" href="chushihua.css" />
+<style>
+	    #container{
+		width: 1002px;
+		margin:0 auto;
+	}
+	#header{
+		height:230px;
+		background:gray;
+	}
+	#banner{
+		margin:2px 2px; 
+		border:4px solid gray;
+		border-radius: 6px;
+	}
+	
+	#nav li{
+		background-color:#D8CFCF;
+		width:90px;
+		float:left;
+		margin-right: 1px;
+	}
+	#nav a{
+		font-size: 15px;
+		line-height: 25px;
+		font-family: '微软雅黑' SimHei 'sans-serif';
+		color:#363636;
+		display: block;
+		height:25px;
+		width:90px;
+		text-align: center;
+	}
+	#nav a:hover{
+		color:white;
+		background:orange;
+	}
+    
+    #main{
+	   
+    }
+
+    #lside{
+	height:480px;
+	width:694px;
+	border:2px solid gray;
+	border-radius: 6px;
+	float:left;
+	background-color:#EDE6E6;
+	position: relative;
+}
+
+    #rside{
+	height:480px;
+	width:294px;
+	background-color:#DCD9D9;
+	border:2px solid gray;
+	border-radius: 6px;
+	float:right;
+} 
+	.clr{
+		clear:both;
+		width=0px;
+		width=0px;
+		overflow: hidden;
+	}
+	.subtitle{
+		height:37px;
+		background-color:rgba(255,255,255,1.00);
+	}
+	.subtitle img{
+		float:left;
+		margin: 3px 10px 2px 10px;
+	}
+	.subtitle h1{
+		float:left;
+		line-height: 37px;
+		font-size: 22px;
+		font-family: '微软黑体' SimHei 'sans-serif';
+	}
+	.two{
+		width:326px;
+		height:198px;
+		background-color: #E1DDDD;
+		margin:10px;
+	}
+	.two img{
+		float:left;
+		margin:0px 3px;
+		padding: 6px;
+		background: white;
+	}
+	.two h2{
+		margin: 4px 0px 4px 15px;
+		color: #753CED;
+		font-size: 16px;
+		font-weight: bold;
+		font-family: '微软黑体' SimHei 'sans-serif';
+		
+	}
+	#wenzi{
+		height: 405px;
+		width:308px;
+		background-color: #E1DDDD;
+		position: absolute;
+		left:360px;
+		top:48px;
+		border:3px dotted #9585F9;
+		overflow: scroll;
+	}
+	#wenzi p{
+		margin: 4px 5px 0 5px;
+		font:bold 15px '微软黑体' SimHei 'sans-serif';
+		color: #220241;
+		line-height: 25px;
+		text-indent: 30px;
+		letter-spacing: 1px;
+		overflow: auto;
+		
+	}
+	#wenzi span.jx{
+		color: red;
+	}
+	#wenzi span.ab{
+		color: blue;
+	}
+	#wenzi span.aa{
+		text-decoration: underline
+	}
+
+	#rside h2{
+		line-height: 32px;
+		text-align: center;
+		background-color:#70D3F6;
+		font:bold 24px '微软黑体' SimHei 'sans-serif';
+		color: blue;
+		letter-spacing: 2px;
+	} 
+	#vd{
+		margin-left: 4px;
+		margin-top: 1px;
+	}
+	#wenzi2{
+	
+		
+		margin-top: 6px;
+		margin-left: 2px;
+		height:360px;
+		width: 286px;
+		border: 2px solid #6C89F5;
+		overflow:scroll;
+	}
+	#wenzi2 p{
+		margin:2px 8px 2px 10px;
+		text-indent: 30px;
+		font: italic bold 14px '微软黑体' SimHei 'sans-serif';
+		line-height: 30px;
+		color:black;
+	
+	}
+	#wenzi2 p span.t{
+		font-size: 18px;
+		color: #5111ED;
+	}
+	#wenzi2 p span.tt{
+		text-align: right;
+		font-size: 17px;
+		color: red;
+	}
+	#wenzi2 img{
+		margin: 4px 3px 4px 12px;
+		padding:2px;
+		background: white;
+		
+	}
+
+	#wenzi2 .sj{
+		color: red;
+		text-align: center;
+	}
+	#wenjian{
+		height:30px;
+		margin-top: 6px;
+		margin-left: 2px;
+		width: 286px;
+		border: 2px solid #6C89F5;
+		background-color:#F3898B;
+	}
+	#wenjian p{
+		text-align: center;
+		text-indent: 30px;
+		font: italic bold 14px '微软黑体' SimHei 'sans-serif';
+		line-height: 30px;
+		color:black;
+	}
+	#footer{
+		height:120px;
+		margin-top: 15px;
+	}
+	#footer li{
+		float:left;
+		margin-right:24px;
+		margin-left: 24px;
+		margin-top: 10px;
+	}
+	#footer ul{
+		height:40px;
+		background-color: #C1BDBD;
+	}
+	#footer address{
+		margin-top:15px;
+		font-family: "微软雅黑" SimHei 'sans-serif';
+		font-size: 16px;
+		float:right;
+		padding-right: 50px;
+	}
+	</style>
+<body>
+   <div id="container">
+   	   <div id="header">
+		   <a href="./hmgk.html" target="_blank"><img src="image/index.jpg" alt="" /></a>
+   	   	  <ul id="nav">
+   	   	  	<li><a href="zhujiemian.html" target="_blank">首页</a></li>
+   	   	  	<li><a href="./hmgk.html" target="_blank">航模概况</a></li>
+   	   	  	<li><a href="#" >竞赛信息</a></li>
+   	   	  	<li><a href="./bkhp.html" target="_blank">北科航拍</a></li>
+   	   	  	<li><a href="#">联系我们</a></li>
+   	   	  </ul>
+   	   </div>
+   	    <a href="https://mp.weixin.qq.com/s/lUAvvAWz8zCzHvPeGt7lUw
+" target="_blank" title="北科精神"><img src="./image/banner2.jpg" id="banner" width=992px height=320px /></a>
+   	   <div id="main">
+   	   	   <div id="lside">
+   	   	   	    <div class="subtitle">
+   	   	   	    <img src="./image/fly1.jpg" alt="" width=30px height="30px" />
+   	   	   	    <h1>竞赛内容</h1>
+   	   	   	    </div>
+   	   	   	    <div class="two">
+   	   	   	    	<h2>竞赛队伍</h2>
+   	   	   	    	<a href="https://mp.weixin.qq.com/s/Dh4bwO2rkLpdoo1GR9WFrg" target="_blank" title="航模情"><img src="./image/js5.jpg" alt="" width=308px height=155px /></a>
+   	   	   	    </div>
+   	   	   	    <div class="two">
+   	   	   	    	<h2>CADC</h2>
+   	   	   	    	<a href="http://cadc.sport.org.cn/" target="_blank" title="竞赛官网"><img src="./image/js3.jpg" alt="" width=308px height=155px /></a>
+   	   	   	    </div>
+   	   	   	    <div id="wenzi">
+   	   	   	    <p>
+   	   	   	    	<span class="jx">CADC简介：</span>科研类全国航空航天模型锦标赛由<span class="ab">国家体育总局、教育部和科技部</span>联合主办，自2004年起开始举办。本赛事尝试以体育竞赛为平台，结合国防、国民经济建设以及国家重点科研任务，通过参赛选手自行制作航空航天模型进行缩比验证飞行，检验创新作品的<span class="ab">可行性、可靠性和实用性</span>，进一步挖掘、拓展高校学生及科研院所相关人员的科技创新能力，为航空工业和国防建设搭建一个发掘创新后备人才、检验创新作品的平台。<br>
+					这些年以来，科研类全国航空航天模型锦标赛经历了翻天覆地的变化，赛事规模不断扩大、科技含量逐年提升，<span class="ab">竞赛内容丰富、多样</span>，科研类“不拼器材拼智力”的办赛理念获得了参赛院校的广泛认可。赛事的发展体现了科技、教育和体育协同发展的结晶。<span class="ab">十年磨一剑</span>，“科研类”仍在不断探索新的模式，谋求将自身打造成国际级知名赛事品牌。
+   	   	   	    </p>	
+   	   	   	    </div>
+   	   	   	    
+   	   	   </div>
+
+   	   	   <div id="rside">
+   	   	   	    <div class="subtitle">
+   	   	   	    <img src="./image/fly1.jpg" alt="" width=30px height="30px" scr="./image/fly1.jpg" />
+   	   	   	    <h1>竞赛详情</h1>
+   	   	   	    </div>
+   	   	   	    <h2>CADC详情</h2>
+   	   	   	    <div id="wenzi2">
+					<p><span class="t">2017CADC中国国际飞行器设计挑战赛暨科研类全国航空航天模型锦标赛---贝壳团队</span<br></p>
+
+        <img src="./image/LOGO.png" alt="LOGO" height="240px" width="200px" style="margin-left: 30px"/>
+<p>北京科技大学航模队自2002年成立以来，已连续11年参加“中国国际飞行器设计挑战赛暨科研类全国航空航天模型锦标赛”（CADC），并多年获得优异成绩。<br></p>
+
+    <p>刚过去的2017 CADC，我校航模队荣获：国际级一等奖两个、二等奖一个、三等奖两个；省部级三等奖一个、二等奖两个。<br></p>
+    <p>北科航模队已是CADC的元老级成员。 2016年我校与北理，西交一同荣获组委会颁发的十年磨一剑，特别纪念奖！<br></p>
+    <img src="./image/js3.jpg" alt="" height="140px" width="240px" />
+<p>2017 CADC的比赛还历历在目，数不清的荣誉不会是过去式，而会成为一个个踏板助我们扶摇直上九万里。<br></p>
+
+<p>接下来小编就带领大家走进北科航模，回首2017CADC~<br></p>
+
+<p><span class="tt"> 航拍组</span><br></p>
+
+<p>
+对地侦查项目:<br></p>
+ <img src="./image/jsz3.jpg" alt="" height="140px" width="240px" />
+<p>CADC固定翼项目中唯一一个需要搭载实时图像传输装置的项目，飞手需操纵便携式固定翼模型飞机对未知区域进行自动或手控侦察活动，根据采集的数据分辨目标，来对指定目标实施即时打击。<br></p>
+
+<p>而航拍组在我校航模队已经有9年历史了，在历年CADC对地侦查项目中均取得优异成绩，于2017 CADC中荣获一项国家二等奖<br></p>
+
+
+
+
+<p>2018年航拍组也将会带领新队员全力拼搏<br></p>
+
+<p>再续辉煌！<br></p>
+
+
+
+
+<p><span class="tt">火箭组</span><br></p>
+
+
+
+<p>模型火箭运载与返回:<br></p>
+           <img src="./image/jsz2.jpg" alt="" height="140px" width="240px" />
+<p>CADC的传统项目，队员们需完成火箭发射并运载有效载荷发射到一定高度，且分离后有效载荷返回至指定落点以完成任务。<br></p>
+
+
+
+<p>该项目为我航模队优势项目。我校航模火箭组屡次在CADC比赛上取得优异成绩，2017CADC的舞台上更是取得全国一等奖（季军）的佳绩<br></p>
+<p>模型火箭运载与返回<br></p>
+<p>尽管今年相较往年在比赛规则发生了巨大变化，模型火箭团队依然斗志昂扬，信心满满。在详细地分析比赛新规后，队员们提出了许多的创新想法，认真备赛，摩拳擦掌等待2018国赛到来。<br></p>
+					<p><span class="tt">旋翼组</span><br></p>
+
+<p>模拟搜救项目<br></p>
+          <img src="./image/jsz1.jpg" alt="" height="140px" width="240px" />
+<p>模拟搜救（即旋翼组参与项目）也属于北科航模的传统项目，既考验飞手的操控能力，又考验队员们的机械组装能力和电控编程能力。<br></p>
+
+<p>飞手需驱使飞机飞行至救援物资存放区，领航员通过机载图像设备寻找、选定并拾取某一特定的救援物资。飞行至相应待救区，投放相应物资，完成搜救任务。<br></p>
+
+<p>在国赛赛场的激烈角逐下，旋翼组2017年CADC全国一等奖&科技创新三等奖的优秀成绩。<br></p>
+
+<p>新的赛季即将开启，直升机组所有成员将用智慧和汗水再创辉煌！<br></p>
+<p><span class="tt">电滑组</span><br></p>
+
+<p>电动遥控滑翔机依靠电机带动飞机起飞，获得一定高度后关闭动力，进入无动力滑翔状态，依靠调整舵面调整飞机的飞行状态，飞手需操控飞机在两分钟时落到指定的位置上。<br></p>
+<p>
+作为北科航模的“常春树”项目，在2017 CADC比赛中中，滑翔机组获得了一项省级二等奖和一项国家级三等奖。<br>
+
+<p>电动滑翔机项目<br></p>
+             <img src="./image/jsz0.jpg" alt="" height="140px" width="240px" />
+<p>滑翔机从设计到最终的成品均是由队员们自己完成的，每一架飞机都包含着历代滑翔机组队员们的深厚积淀。现如今滑翔机组依然在不断优化飞机设计，培养新一代飞手，争取在2018年能够获得更好的成绩！<br></p>
+
+
+
+<p class="sj">
+CADC<br>
+奋斗是我们不变的信念，天空是我们永远的追求；<br>
+
+我们为兴趣同聚一堂，我们为梦想鏖战天明；<br>
+
+我们曾把一同酒言欢，也曾一同伏案而眠；<br>
+
+我们不畏劳苦因为目标坚定；<br>
+
+我们大胆创新因为享受挑战；<br>
+
+代代传承的不仅是知识与技术，更是拼搏骄傲的精神；<br>
+
+“箭”指长空，“翼”翔九天。<br></p>
+              <img src="./image/js5.jpg" alt="" height="140px" width="240px" />
+<p class="sj">2017 CADC，挥手再见；<br></p>
+
+<p class="sj">2018 CADC，不见不散。<br>
+					</p>
+   	   	   	    </div>
+   	   	   <div id="wenjian">
+   	   	   	<a href="text/bsgz.pdf" target="_blank" title="点击查看"><p>CADC比赛规则2018版</p></a>
+   	   	   </div>   
+  	   	   </div>
+  	   </div>
+   	   	   <div class="clr"></div> 	   
+   	   <div id="footer">
+   	   	<ul>
+   	   		<li><a href="http://page.renren.com/600989646?checked=true" target="_blank">公共主页</a></li>
+   	   		<li><a href="http://www.hangmow.com/" target="_blank">航模论坛</a></li>
+   	   		<li><a href="http://tieba.baidu.com/f?kw=%BA%BD%C4%A3&fr=ala0&tpl=5" target="_blank">航模贴吧</a></li>
+   	   		<li><a href="#" >反馈信息</a></li>
+   	   		<li><a href="#" target="_blank">关于我们</a></li>
+   	   	</ul>
+   	   	<address >&copy;2018 北京市海淀区学院路30号北京科技大学高等工程师学院309</address>
+   	   </div>
+   </div>
+   
+</body>
+</html>
